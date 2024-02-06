@@ -1,0 +1,68 @@
+[
+    {
+      "title": "Barcelona Food Truck Festival",
+      "price": "Tickets from $52",
+      "time": "Start 20:00pm - 22:00pm",
+      "place": "Manhattan, New York",
+      "date": "26 June",
+      "image": "https://res.cloudinary.com/dqyusvzi9/image/upload/v1706891968/qggnhinfnovjje1icpcl.jpg"
+    },
+    {
+      "title": "Summer Jazz Concert Series",
+      "price": "Tickets from $35",
+      "time": "Start 19:30pm - 21:30pm",
+      "place": "Central Park, New York",
+      "date": "15 July",
+      "image": "https://res.cloudinary.com/dqyusvzi9/image/upload/v1706891966/lkfrh1ox8e55fmg0l8ov.jpg"
+    },
+    {
+      "title": "Cultural Arts Exhibition",
+      "price": "Free Entry",
+      "time": "Start 10:00am - 17:00pm",
+      "place": "Museum of Modern Art, New York",
+      "date": "18 August",
+      "image": "https://res.cloudinary.com/dqyusvzi9/image/upload/v1706891965/s9gtyvro8r6usbto2cn1.jpg"
+    },
+    {
+      "title": "Outdoor Movie Night",
+      "price": "Free Entry",
+      "time": "Start 19:45pm - 22:00pm",
+      "place": "Bryant Park, New York",
+      "date": "20 May",
+      "image": "https://res.cloudinary.com/dqyusvzi9/image/upload/v1706891963/ulth6nyydjyywhsnvlsg.jpg"
+    },
+    {
+      "title": "Barcelona Food Truck Festival",
+      "price": "Tickets from $52",
+      "time": "Start 20:00pm - 22:00pm",
+      "place": "Manhattan, New York",
+      "date": "26 June",
+      "image": "https://res.cloudinary.com/dqyusvzi9/image/upload/v1706891968/qggnhinfnovjje1icpcl.jpg"
+    },
+
+    {
+      "title": "Summer Jazz Concert Series",
+      "price": "Tickets from $35",
+      "time": "Start 19:30pm - 21:30pm",
+      "place": "Central Park, New York",
+      "date": "15 July",
+      "image": "https://res.cloudinary.com/dqyusvzi9/image/upload/v1706891966/lkfrh1ox8e55fmg0l8ov.jpg"
+    },
+    {
+      "title": "Cultural Arts Exhibition",
+      "price": "Free Entry",
+      "time": "Start 10:00am - 17:00pm",
+      "place": "Museum of Modern Art, New York",
+      "date": "18 August",
+      "image": "https://res.cloudinary.com/dqyusvzi9/image/upload/v1706891965/s9gtyvro8r6usbto2cn1.jpg"
+    },
+    {
+      "title": "Outdoor Movie Night",
+      "price": "Free Entry",
+      "time": "Start 19:45pm - 22:00pm",
+      "place": "Bryant Park, New York",
+      "date": "20 May",
+      "image": "https://res.cloudinary.com/dqyusvzi9/image/upload/v1706891963/ulth6nyydjyywhsnvlsg.jpg"
+    }
+  ]
+  
