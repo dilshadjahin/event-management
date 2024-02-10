@@ -4,18 +4,19 @@ import Navbar from "../Navbar/Navbar";
 import { useEffect, useState } from "react";
 import LatestEvents from "./LatestEvents/LatestEvents";
 import Services from "./Services/Services";
-import { TbHexagonLetterH , TbHexagonLetterR, TbHexagonLetterE} from "react-icons/tb";
+import { TbHexagonLetterH, TbHexagonLetterR, TbHexagonLetterE } from "react-icons/tb";
 import Hotel from "./Hotel/Hotel";
 import Cards from "./Cards/Cards";
 import Testimonial from "./Testiminial/Testimonial";
 import Blogs from "./Blogs/Blogs";
 import Speakers from "./speakers/speakers";
-import Gallery from "./Gallery/Gallery";
+import Gallery from "./SwakGallery/SwakGallery";
 import Footer from "../Footer/Footer";
 import Sponsor from "./Sponsor/Sponsor";
-import {  FaImage } from "react-icons/fa";
+import { FaImage } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
 import { LuNewspaper } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 
 const slides = [
@@ -44,9 +45,9 @@ const HomePage = () => {
                 <title>Event</title>
             </Helmet>
 
-         
-                <Navbar />
-           
+
+            <Navbar />
+
 
             <div className="carousel w-full">
                 {slides.map((slide, index) => (
@@ -121,17 +122,17 @@ const HomePage = () => {
 
             {/* our services */}
 
-            {/* <div className="text-center my-6">
-                <small className="text-2xl text-[#878787] tracking-widest uppercase ">OUR SERVICES</small>
-                <h2 className="text-5xl tracking-widest">Swank<strong className="m-6 text-5xl font-serif font-bold ">Expertise</strong> </h2>
+            <div className="text-center my-6">
+                <small className="text-base lg:text-2xl text-[#878787] tracking-widest uppercase ">OUR SERVICES</small>
+                <h2 className="text-2xl lg:text-5xl tracking-widest">Swank<strong className="mx-2 my-6 text-2xl lg:text-5xl font-serif font-bold ">Expertise</strong> </h2>
             </div>
 
-            <Services></Services> */}
+            <Services></Services>
 
 
             {/* hotels */}
 
-            {/* <div className="flex text-start max-w-7xl mx-auto mb-6">
+            <div className="flex text-start max-w-7xl mx-auto mb-6">
 
                 <div className="">
                     <TbHexagonLetterH className="text-red-600 w-[100px] h-[100px] text-4xl"></TbHexagonLetterH>
@@ -140,22 +141,23 @@ const HomePage = () => {
 
                 <h2 className="text-4xl  font-bold mt-8">HOTELS <small className="text-4xl text-[#878787] tracking-widest">/ dont forget book your room</small> </h2>
 
-            </div> */}
+            </div>
 
-            {/* <Hotel></Hotel> */}
+            <Hotel></Hotel>
 
             {/* testimonial */}
-{/* 
+
+
             <div className="w-full h-[500px] my-16 bg-red-400">
 
                 <Testimonial>
 
                 </Testimonial>
-            </div> */}
+            </div>
 
             {/* Recent blog */}
 
-            {/* <div className="flex text-start max-w-7xl mx-auto mb-6">
+            <div className="flex text-start max-w-7xl mx-auto mb-6">
 
                 <div className="">
                     <TbHexagonLetterR className="text-red-600 w-[100px] h-[100px] text-4xl"></TbHexagonLetterR>
@@ -164,20 +166,22 @@ const HomePage = () => {
 
                 <h2 className="text-4xl  font-bold mt-8">RECENT BLOG POSTS <small className="text-4xl text-[#878787] tracking-widest">/ get news!</small> </h2>
 
-            </div> */}
-{/* 
+            </div>
+
+
             <Blogs></Blogs>
 
+            <Link> 
             <div className="flex w-full justify-center my-10">
 
-<button className='flex gap-2 px-10 py-4 text-white hover:bg-[#435469]  rounded-lg font-bold text-lg border  bg-red-600 mr-8 mt-5'><LuNewspaper className='text-xl mt-1' /> See All News</button>
-</div> */}
-
+                <button className='flex gap-2 px-10 py-4 text-white hover:bg-[#435469]  rounded-lg font-bold text-lg border  bg-red-600 mr-8 mt-5'><LuNewspaper className='text-xl mt-1' /> See All News</button>
+            </div>
+            </Link>
 
             {/* event speakers */}
 
 
-            {/* <div className="flex text-start max-w-7xl mx-auto mb-6">
+            <div className="flex text-start max-w-7xl mx-auto mb-6">
 
                 <div className="">
                     <TbHexagonLetterE className="text-red-600 w-[100px] h-[100px] text-4xl"></TbHexagonLetterE>
@@ -186,18 +190,18 @@ const HomePage = () => {
 
                 <h2 className="text-4xl  font-bold mt-8">EVENT SPEAKERS <small className="text-4xl text-[#878787] tracking-widest">/meet with greaters!</small> </h2>
 
-            </div> */}
+            </div>
 
-            {/* <Speakers></Speakers>
+            <Speakers></Speakers>
 
             <div className="flex w-full justify-center my-10">
 
                 <button className='flex gap-2 px-10 py-4 text-white hover:bg-[#435469]  rounded-lg font-bold text-lg border  bg-red-600 mr-8 mt-5'><IoPerson className='text-xl mt-1' />  All Speakers</button>
-            </div> */}
+            </div>
 
             {/* gallery */}
 
-            {/* <div className="text-center my-6">
+            <div className="text-center my-6">
                 <small className="text-2xl text-[#878787] tracking-widest uppercase ">Swank Gallery</small>
                 <h2 className="text-5xl tracking-widest">Beautiful &<strong className="m-6 text-5xl font-serif font-bold ">Unforgettable Times</strong> </h2>
             </div>
@@ -207,11 +211,11 @@ const HomePage = () => {
             <div className="flex w-full justify-center my-10">
 
                 <button className='flex gap-2 px-10 py-4 text-white hover:bg-[#435469]  rounded-lg font-semibold text-lg border  bg-red-600 mr-8 mt-5'><FaImage className='text-xl mt-1' /> See All Gallery</button>
-            </div> */}
+            </div>
 
             {/* sponsors */}
 
-            {/* <Sponsor />
+            <Sponsor />
 
 
 
@@ -221,7 +225,8 @@ const HomePage = () => {
 
 
 
-            <Footer></Footer> */}
+
+            <Footer></Footer>
 
 
         </div>

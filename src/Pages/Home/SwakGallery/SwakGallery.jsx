@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 
 
 
-const Gallery = () => {
+const SwakGallery = () => {
 
     const [images, setImages] = useState([]);
     const [videos, setVideos] = useState([]);
@@ -111,4 +111,4 @@ const Gallery = () => {
     );
 };
 
-export default Gallery;
+export default SwakGallery;

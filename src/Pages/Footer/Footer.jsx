@@ -30,10 +30,10 @@ const Footer = () => {
 
             </nav>
 
-            <nav>
+            <nav className='grid md:grid-cols-2 grid-cols-1'>
 
                 <a className="footer-title">Swank Instagram</a>
-                <div className='grid grid-cols-3 w-[480px]  gap-4 '>
+                <div className='grid lg:grid-cols-3 grid-cols-1  w-[220px] md:w-[480px]  gap-4 '>
                     <div className='relative -z-0'>
                         <img src={insta5} className='h-[140px] w-[280px]' alt="" />
                         <div className="absolute z-10 inset-0 bg-[#e78768] bg-opacity-60 opacity-0 group-hover:opacity-100  transition-opacity flex items-center justify-center">

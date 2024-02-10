@@ -44,7 +44,7 @@ const Navbar = () => {
                     }
 
                 </ul>
-                <Link className="px-8 py-4 bg-[#F9A51A] rounded text-black font-semibold xl:ml-32 ml-6">
+                <Link  className="px-8 py-4 bg-[#F9A51A] rounded text-black font-semibold xl:ml-32 ml-6">
                     Login
                 </Link>
             </div>
