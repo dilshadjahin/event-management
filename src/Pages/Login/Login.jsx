@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
-import { sendPasswordResetEmail, signInWithEmailAndPassword } from "firebase/auth";
 import { useRef, useState } from "react";
 import auth from "../../Firebase/firebase.config";
 import Navbar from "../Navbar/Navbar";
+import { sendPasswordResetEmail, signInWithEmailAndPassword } from "firebase/auth";
 
 
 const Login = () => {
